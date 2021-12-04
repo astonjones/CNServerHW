@@ -40,6 +40,6 @@ app.post('/palindrome', function(req, res){
 });
 
 //starts the server
-app.listen(3001, () => {
+app.listen(process.env.PORT, () => {
     console.log('Server started!');
 });
